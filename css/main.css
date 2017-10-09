@@ -72,7 +72,7 @@ h4 {
 }
 .main {
   padding: 50px;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 h3 {
   position: absolute;
@@ -88,11 +88,37 @@ h3 {
   top: 250px;
   left: 840px;
 }
+.circle {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color: #D9CD1C;
+}
 /* ==========================================================================
    Narrative
    ========================================================================== */
 .photo-wrap {
   margin-left: 320px;
+}
+.narrative {
+  margin-top: 100px;
+}
+.square {
+  width: 800px;
+  height: 850px;
+  background-color: #C24704;
+}
+
+/* ==========================================================================
+    Book Arts
+   ========================================================================== */
+.book-arts {
+  margin-top: 200px;
+}
+.square-2 {
+  width: 875px;
+  height: 1100px;
+  background-color: #C24704;
 }
 
 /* ==========================================================================
