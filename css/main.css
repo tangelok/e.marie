@@ -19,7 +19,7 @@ body {
 h2 {
   margin-left: 20px;
   color: #00ADA7;
-  font-size: 30px;
+  font-size: 36px;
   text-align: center;
 }
 h4 {
@@ -32,11 +32,23 @@ h4 {
    Grid Systems:
    ========================================================================== */
   .col-1-2 {
-    flex-basis: 48%;
+    flex-basis: 50%;
   }
   .grid-wrapper {
     display: flex;
-    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .col-1 {
+    flex-basis: 100%;
+  }
+  .row-1-2 {
+    flex-basis: 25;
+  }
+  .grid-row {
+    display: flex;
+  }
+  .grid-column {
+    display: flex;
   }
 /* ==========================================================================
     Header
@@ -44,6 +56,7 @@ h4 {
  h1 {
    margin-left: 20px;
    color: #00ADA7;
+   position: fixed;
  }
 /* ==========================================================================
    Main
@@ -54,9 +67,12 @@ h4 {
    border-radius: 50%;
    position: relative;
 }
+.header-img:hover {
+  transform: scale(1.5, 1.5);
+}
 .main {
   padding: 50px;
-  margin-left: 80px;
+  margin-left: 150px;
 }
 h3 {
   position: absolute;
@@ -65,13 +81,20 @@ h3 {
   z-index: 100;
 }
 .heading-narrative {
-  top: 265px;
-  left: 215px;
+  top: 250px;
+  left: 260px;
 }
 .heading-book-arts {
-  top: 265px;
+  top: 250px;
   left: 840px;
 }
 /* ==========================================================================
    Narrative
    ========================================================================== */
+.photo-wrap {
+  margin-left: 320px;
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
