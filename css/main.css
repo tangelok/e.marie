@@ -17,15 +17,9 @@ body {
   font-family: 'Noto Serif', serif;
 }
 h2 {
-  margin-left: 20px;
   color: #00ADA7;
   font-size: 36px;
   text-align: center;
-}
-h4 {
-  margin-left: 20px;
-  color: #00ADA7;
-  font-size: 30px;
 }
 
 /* ==========================================================================
@@ -108,6 +102,54 @@ h3 {
 .book-arts {
   margin-top: 200px;
 }
+/* ==========================================================================
+  Contact
+   ========================================================================== */
+  .contact {
+    margin: 50px 200px 50px 200px;
+  }
+  form {
+  font-family: 'Noto Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #44545E;
+  width: 100%;
+  margin: 0 auto;
+}
+input, textarea {
+ display: block;
+  font-family: 'Noto Serif', serif;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ border: #44545E;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button {
+ background-color: #D9CD1C ;
+ color: white;
+  font-family: 'Noto Serif', serif;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button:hover {
+ color: #D9CD1C ;
+ background-color: white;
+ border: 2px solid ##D9CD1C ;
+ font-family: 'Noto Serif', serif;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
+}
+/* ==========================================================================
+  Shop
+ ========================================================================== */
+
 /* ==========================================================================
 Footer
 ========================================================================== */
