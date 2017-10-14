@@ -26,8 +26,8 @@ h4 {
   margin-left: 20px;
   color: #00ADA7;
   font-size: 30px;
-
 }
+
 /* ==========================================================================
    Grid Systems:
    ========================================================================== */
@@ -42,7 +42,7 @@ h4 {
     flex-basis: 100%;
   }
   .row-1-2 {
-    flex-basis: 25%;
+    flex-basis: 50%;
   }
   .grid-row {
     display: flex;
@@ -67,10 +67,10 @@ h4 {
    border-radius: 50%;
    border: 25px #D9CD1C solid;
 }
-.header-img-1:hover {
+.header-img:hover {
   transform: scale(1.5, 1.5);
 }
-.header-img-2:hover {
+.header-img:hover {
   transform: scale(1.5, 1.5);
 }
 .main {
@@ -89,19 +89,19 @@ h3 {
 }
 .heading-book-arts {
   top: 250px;
-  left: 840px;
+  left: 730px;
 }
+
 /* ==========================================================================
    Narrative
    ========================================================================== */
-.photo-wrap {
-  margin-left: 320px;
-  border: 25px #C24704 solid;
-
-}
 .narrative {
   margin-top: 100px;
 }
+.photo-wrap {
+  margin: 50px 200px 50px 200px;
+  border: 25px #C24704 solid;
+  }
 /* ==========================================================================
     Book Arts
    ========================================================================== */
@@ -111,3 +111,15 @@ h3 {
 /* ==========================================================================
 Footer
 ========================================================================== */
+footer a {
+  margin-right: 25px;
+  color: #00ADA7;
+  font-size: 32px;
+}
+#social-links {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
