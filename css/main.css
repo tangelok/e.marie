@@ -52,10 +52,11 @@ h2 {
 /* ==========================================================================
     Header
  ========================================================================== */
- h1 {
+ nav a {
    margin-left: 20px;
    color: #00ADA7;
    position: fixed;
+   text-decoration: none;
  }
 /* ==========================================================================
    Main
@@ -69,7 +70,7 @@ h2 {
 /*.header-img:hover {
   transform: scale(1.5, 1.5);
 }*/
-.main {
+#main {
   padding: 50px;
   margin-left: 90px;
 }
@@ -79,19 +80,31 @@ h3 {
   font-size: 45px;
   z-index: 100;
 }
-.heading-narrative {
-  top: 250px;
-  left: 235px;
+.heading-narrative a {
+  top: 135px;
+  left: 90px;
+  text-decoration: none;
+  position: absolute;
+  color: #F2F2F2;
+  font-size: 45px;
+  z-index: 100;
+  text-align: center;
 }
-.heading-book-arts {
-  top: 250px;
-  left: 710px;
+.heading-book-arts a {
+  top: 135px;
+  left: 110px;
+  text-decoration: none;
+  position: absolute;
+  color: #F2F2F2;
+  font-size: 25px;
+  z-index: 100;
+  text-align: center;
 }
 
 /* ==========================================================================
    Narrative
    ========================================================================== */
-.narrative {
+#narrative {
   margin-top: 100px;
 }
 .photo-wrap {
@@ -101,7 +114,7 @@ h3 {
 /* ==========================================================================
     Book Arts
    ========================================================================== */
-.book-arts {
+#book-arts {
   margin-top: 200px;
 }
 /* ==========================================================================
