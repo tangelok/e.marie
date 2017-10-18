@@ -21,6 +21,11 @@ h2 {
   font-size: 36px;
   text-align: center;
 }
+/*h4 {
+  color: #00ADA7;
+  font-size: 20px;
+  text-align: center;
+}*/
 
 /* ==========================================================================
    Grid Systems:
@@ -61,15 +66,12 @@ h2 {
    border-radius: 50%;
    border: 25px #D9CD1C solid;
 }
-.header-img:hover {
+/*.header-img:hover {
   transform: scale(1.5, 1.5);
-}
-.header-img:hover {
-  transform: scale(1.5, 1.5);
-}
+}*/
 .main {
   padding: 50px;
-  margin-left: 120px;
+  margin-left: 90px;
 }
 h3 {
   position: absolute;
@@ -79,11 +81,11 @@ h3 {
 }
 .heading-narrative {
   top: 250px;
-  left: 260px;
+  left: 235px;
 }
 .heading-book-arts {
   top: 250px;
-  left: 730px;
+  left: 710px;
 }
 
 /* ==========================================================================
@@ -106,7 +108,7 @@ h3 {
   Contact
    ========================================================================== */
   .contact {
-    margin: 50px 200px 50px 200px;
+    margin: 130px 200px 100px 200px;
   }
   form {
   font-family: 'Noto Serif', serif;
