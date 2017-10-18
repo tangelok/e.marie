@@ -97,7 +97,36 @@ h3 {
 .photo-wrap {
   margin: 50px 200px 50px 200px;
   border: 25px #C24704 solid;
-  }
+}
+.img-wrap {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D9CC3C;
+  cursor: pointer;
+}
+.img-wrap:hover .overlay {
+  opacity: 1;
+}
+.img-description {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
 /* ==========================================================================
     Book Arts
    ========================================================================== */
