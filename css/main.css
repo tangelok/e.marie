@@ -10,7 +10,7 @@
 
 /* Fix for responsive images */
 img {
-  max-width: 100%;
+  width: 100%;
 }
 body {
   background-color: #F2F2F2;
@@ -20,6 +20,9 @@ h2 {
   color: #00ADA7;
   font-size: 36px;
   text-align: center;
+}
+a {
+  font-family: 'Noto Serif', serif;
 }
 /*h4 {
   color: #00ADA7;
@@ -72,7 +75,7 @@ h2 {
 }*/
 #main {
   padding: 50px;
-  margin-left: 90px;
+  margin-left: 140px;
 }
 h3 {
   position: absolute;
@@ -81,22 +84,22 @@ h3 {
   z-index: 100;
 }
 .heading-narrative a {
-  top: 135px;
-  left: 90px;
+  top: 120px;
+  left: 80px;
   text-decoration: none;
   position: absolute;
   color: #F2F2F2;
-  font-size: 45px;
+  font-size: 50px;
   z-index: 100;
   text-align: center;
 }
 .heading-book-arts a {
-  top: 135px;
-  left: 110px;
+  top: 120px;
+  left: 80px;
   text-decoration: none;
-  position: absolute;
+  position: relative;
   color: #F2F2F2;
-  font-size: 25px;
+  font-size: 50px;
   z-index: 100;
   text-align: center;
 }
@@ -153,7 +156,6 @@ h3 {
 /* ==========================================================================
     Modal
    ========================================================================== */
-
 /*PRECIPICE OF ANGELS*/
 /* The Modal (background) */
 .modal {
