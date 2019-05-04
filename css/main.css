@@ -77,7 +77,7 @@ a {
   padding: 50px;
   margin-left: 140px;
 }
-h3 {
+#main h3 {
   position: absolute;
   color: #F2F2F2;
   font-size: 45px;
@@ -93,6 +93,9 @@ h3 {
   z-index: 100;
   text-align: center;
 }
+.heading-narrative a:hover {
+  color: #00ADA7;
+}
 .heading-book-arts a {
   top: 120px;
   left: 80px;
@@ -102,6 +105,9 @@ h3 {
   font-size: 50px;
   z-index: 100;
   text-align: center;
+}
+.heading-book-arts a:hover {
+  color: #00ADA7;
 }
 
 /* ==========================================================================
@@ -179,9 +185,30 @@ h3 {
     padding: 20px;
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    z-index: 150;
 }
-.modal-content p {
-  word-wrap: break-word;
+.modal-content h3 {
+  color: #00ADA7;
+  font-size: 45px;
+}
+.modal-content a {
+  text-decoration: none;
+  color: #C24704;
+  text-transform: uppercase;
+  border: 3px solid #C24704;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.modal-content a:hover {
+  background-color: #C24704;
+  text-decoration: none;
+  color: #F2F2F2;
+  text-transform: uppercase;
+  border: 3px solid #C24704;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 /* The Close Button */
@@ -214,6 +241,9 @@ h3 {
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
 }
+#myBtn:hover {
+  color: #C24704;
+}
 
 /*STILL POND */
 
@@ -234,6 +264,10 @@ h3 {
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
 }
+#myBtn2:hover {
+  color: #C24704;
+}
+
 /*RADIUM GIRLS */
 
 #myBtn3 {
@@ -253,6 +287,10 @@ h3 {
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
 }
+#myBtn3:hover {
+  color: #C24704;
+}
+
 /*DAVID, I LOVE YOU */
 
 #myBtn4 {
@@ -272,6 +310,10 @@ h3 {
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
 }
+#myBtn4:hover {
+  color: #C24704;
+}
+
 /*BOX OF BONES */
 
 #myBtn5 {
@@ -291,6 +333,10 @@ h3 {
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
 }
+#myBtn5:hover {
+  color: #C24704;
+}
+
 /*PERIODIC TABLE */
 #myBtn6 {
   color: white;
@@ -308,6 +354,9 @@ h3 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
+}
+#myBtn6:hover {
+  color: #C24704;
 }
 
 /*SPACE LOVE */
@@ -327,6 +376,9 @@ h3 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
    cursor: pointer;
+}
+#myBtn7:hover {
+  color: #C24704;
 }
 /* ==========================================================================
   Contact
