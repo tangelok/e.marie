@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700');
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  width: 100%;
+}
+body {
+  background-color: #F2F2F2;
+  font-family: 'Noto Serif', serif;
+}
+h2 {
+  color: #00ADA7;
+  font-size: 36px;
+  text-align: center;
+}
+/*h4 {
+  color: #00ADA7;
+  font-size: 20px;
+  text-align: center;
+}*/
+
+/* ==========================================================================
+   Grid Systems:
+   ========================================================================== */
+  .col-1-2 {
+    flex-basis: 50%;
+  }
+  .grid-wrapper {
+    display: flex;
+    margin-top: 70px;
+  }
+  .col-1 {
+    flex-basis: 100%;
+  }
+  .row-1-2 {
+    flex-basis: 50%;
+  }
+  .grid-row {
+    display: flex;
+  }
+  .grid-column {
+    display: flex;
+  }
+/* ==========================================================================
+    Header
+ ========================================================================== */
+ nav a {
+   margin-left: 20px;
+   color: #00ADA7;
+   position: fixed;
+   text-decoration: none;
+ }
+/* ==========================================================================
+   Main
+   ========================================================================== */
+.header-img {
+   height: 400px;
+   width: 400px;
+   border-radius: 50%;
+   border: 25px #D9CD1C solid;
+}
+/*.header-img:hover {
+  transform: scale(1.5, 1.5);
+}*/
+#main {
+  padding: 50px;
+  margin-left: 140px;
+}
+h3 {
+  position: absolute;
+  color: #F2F2F2;
+  font-size: 45px;
+  z-index: 100;
+}
+.heading-narrative a {
+  top: 120px;
+  left: 80px;
+  text-decoration: none;
+  position: absolute;
+  color: #F2F2F2;
+  font-size: 50px;
+  z-index: 100;
+  text-align: center;
+}
+.heading-book-arts a {
+  top: 120px;
+  left: 80px;
+  text-decoration: none;
+  position: relative;
+  color: #F2F2F2;
+  font-size: 50px;
+  z-index: 100;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Narrative
+   ========================================================================== */
+#narrative {
+  margin-top: 100px;
+}
+.photo-wrap {
+  margin: 50px 200px 50px 200px;
+  border: 25px #C24704 solid;
+}
+/* ==========================================================================
+    Book Arts
+   ========================================================================== */
+#book-arts {
+  margin-top: 200px;
+}
+/* ==========================================================================
+  Hover overlay
+   ========================================================================== */
+.img-wrap {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D9CC3C;
+  cursor: pointer;
+}
+.img-wrap:hover .overlay {
+  opacity: 1;
+}
+.img-description {
+  color: white;
+  font-size: 19px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+/* ==========================================================================
+    Modal
+   ========================================================================== */
+/*PRECIPICE OF ANGELS*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#myBtn {
+  color: white;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  font-size: 26px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+
+/*STILL POND */
+
+#myBtn2 {
+  color: white;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  font-size: 26px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+/*RADIUM GIRLS */
+
+#myBtn3 {
+  color: white;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  font-size: 26px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+/*BOX OF BONES */
+
+#myBtn4 {
+  color: white;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  font-size: 26px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+/*BOX OF BONES */
+
+#myBtn5 {
+  color: white;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  font-size: 26px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+/*SPACE LOVE */
+#myBtn6 {
+  color: white;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  font-size: 26px;
+  font-family: 'Noto Serif', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+/* ==========================================================================
+  Contact
+   ========================================================================== */
+  .contact {
+    margin: 130px 200px 100px 200px;
+  }
+  form {
+  font-family: 'Noto Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #44545E;
+  width: 100%;
+  margin: 0 auto;
+}
+input, textarea {
+ display: block;
+  font-family: 'Noto Serif', serif;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ border: #44545E;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button {
+ background-color: #D9CD1C ;
+ color: white;
+  font-family: 'Noto Serif', serif;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button:hover {
+ color: #D9CD1C ;
+ background-color: white;
+ border: 2px solid ##D9CD1C ;
+ font-family: 'Noto Serif', serif;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
+}
+/* ==========================================================================
+  Shop
+ ========================================================================== */
+
+/* ==========================================================================
+Footer
+========================================================================== */
+footer a {
+  margin-right: 25px;
+  color: #00ADA7;
+  font-size: 32px;
+}
+#social-links {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
